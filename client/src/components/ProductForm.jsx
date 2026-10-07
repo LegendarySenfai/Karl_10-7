@@ -68,7 +68,7 @@ function ProductForm({ editingProduct, onSubmit, onCancel }) {
         name="price"
         type="number"
         min="0"
-        placeholder="Price ($)"
+        placeholder="Price (₱)"
         className={inputClass}
         value={form.price}
         onChange={handleChange}
